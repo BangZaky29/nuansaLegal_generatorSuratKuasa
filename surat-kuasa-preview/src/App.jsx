@@ -207,7 +207,7 @@ function App() {
           <div className="header-content">
             <div className="header-left">
               <div className="header-logo">
-                <img src={LogoNuansaLegal} alt="Nuansa Legal" style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
+                <img src={LogoNuansaLegal} alt="Nuansa Legal" style={{ width: '98px', height: '98px', objectFit: 'contain' }} />
               </div>
               <div className="header-text">
                 <h1>Generator Surat Kuasa</h1>
@@ -476,11 +476,11 @@ function App() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Maksud/Tujuan Kuasa</label>
-                      <input
-                        type="text"
+                      <textarea
                         value={perihalKuasa.maksud}
                         onChange={(e) => setPerihalKuasa({...perihalKuasa, maksud: e.target.value})}
-                        className="form-input"
+                        className="form-textarea"
+                        rows={3}
                         placeholder="Contoh: Mengambil uang di bank"
                       />
                     </div>
