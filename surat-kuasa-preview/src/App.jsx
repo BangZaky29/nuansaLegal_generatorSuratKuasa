@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { ChevronDown, ChevronUp, Download, User, Users, FileText, Info } from 'lucide-react';
-import LogoNuansaLegal from './assets/LogoNuansaLegal.png';
+import LogoNuansaLegal from './assets/BKBlank_LogoNuansaLegal.png';
 import BannerFooter from './assets/Benner.jpeg';
 import './App.css';
 
