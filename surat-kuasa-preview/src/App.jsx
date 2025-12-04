@@ -804,8 +804,8 @@ function App() {
       <footer className="app-footer">
         <div className="container">
           <div className="footer-content">
-            <p>© 2025 Generator Surat Kuasa - Generated Automatically</p>
-            <p className="footer-note">Pastikan semua data yang diisi sudah benar sebelum mengunduh</p>
+            <p>Generator Surat Kuasa - Generated Automatically</p>
+            <p className="footer-note">@ 2025 nuansalegal.id. All rights reserved.</p>
           </div>
         </div>
       </footer>
